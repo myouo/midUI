@@ -1,0 +1,7 @@
+{
+  "apiKey": "YOUR_QWEN_API_KEY_HERE",
+  "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "modelName": "qwen-vl-max",
+  "modelFamily": "qwen",
+  "updatedAt": "2026-02-15T08:57:39.273Z"
+}

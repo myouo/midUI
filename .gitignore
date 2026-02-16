@@ -1,0 +1,35 @@
+# midUI - Visual Browser Automation Testing Tool
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.sw?
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test reports
+reports/
+test-cases/
+
+# Temporary files
+*.tmp
+temp/

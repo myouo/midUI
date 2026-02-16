@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@xyflow/react/dist/style.css";
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-secondary: #64748b;
+  --color-background: #0f172a;
+
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+
+  --backdrop-blur-xs: 8px;
+  --backdrop-blur-sm: 12px;
+  --backdrop-blur-md: 16px;
+  --backdrop-blur-lg: 24px;
+  --backdrop-blur-xl: 32px;
+}

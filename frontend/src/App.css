@@ -1,0 +1,94 @@
+/* 全局样式重置 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 根元素样式 */
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* 毛玻璃卡片效果 */
+.glass-card {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  -moz-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.75rem;
+}
+
+/* 毛玻璃效果 - 基础 */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  -moz-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* 渐变背景 - Slate */
+.bg-gradient-to-slate {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+/* 渐变背景 - Blue */
+.bg-gradient-to-blue {
+  background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 50%, #c7d2fe 100%);
+}
+
+/* 渐变背景 - Purple */
+.bg-gradient-to-purple {
+  background: linear-gradient(135deg, #f3e8ff 0%, #ddd6fe 100%);
+}
+
+/* 阴影效果 */
+.shadow-glass {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+.shadow-subtle {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* 文本颜色 */
+.text-glass-dark {
+  color: #1e293b;
+}
+
+.text-glass-medium {
+  color: #475569;
+}
+
+.text-glass-light {
+  color: #94a3b8;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
+}
+
+/* 响应式布局调整 */
+@media (max-width: 768px) {
+  .glass-card {
+    border-radius: 0.5rem;
+  }
+}
