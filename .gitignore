@@ -1,5 +1,6 @@
 # midUI - Visual Browser Automation Testing Tool
-
+backend/midscene_run/report/
+backend/midscene_run/log/
 # Dependencies
 node_modules/
 
